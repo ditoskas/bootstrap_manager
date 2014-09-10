@@ -7,6 +7,8 @@ Requirements
 ------------
   - CakePHP 3
   - Bootstrap 3
+
+
 Installation
 ------------
 Download the CakePHP 3 and modify the composer.json file by adding in the require section 
