@@ -1,5 +1,5 @@
 {
-"name": "ditoskas/BootstrapManager",
+"name": "ditoskas/bootstrap_manager",
 "type": "CakePHP3-Plugin",
 "description": "CakePHP 3 plugin for Bootstrap",
 "keywords": [
@@ -16,8 +16,8 @@
 }
 ],
 "support": {
-"issues": "https://github.com/ditoskas/BootstrapManager/issues",
-"source": "https://github.com/ditoskas/BootstrapManager"
+"issues": "https://github.com/ditoskas/bootstrap_manager/issues",
+"source": "https://github.com/ditoskas/bootstrap_manager"
 },
 "require": {
 "php": ">=5.4.19",
