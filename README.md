@@ -7,7 +7,10 @@ Requirements
 ------------
   - CakePHP 3
   - Bootstrap 3
-
+Installation
+------------
+Download the CakePHP 3 and modify the composer.json file by adding in the require section 
+`"ditoskas/bootstrap_manager": "dev-master"`
 Load plugin
 ------------
 You need to enable the plugin in your app/Config/bootstrap.php file:
