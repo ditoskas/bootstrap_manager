@@ -1,0 +1,26 @@
+{
+"name": "ditoskas/BootstrapManager",
+"type": "CakePHP3-Plugin",
+"description": "CakePHP 3 plugin for Bootstrap",
+"keywords": [
+"cakephp 3",
+"bootstrap",
+"twitter"
+],
+"homepage": "http://bootstrap.toskas.gr",
+"license": "MIT",
+"authors": [
+{
+"name": "Dimitrios Toskas",
+"email": "ditoskas@gmail.com"
+}
+],
+"support": {
+"issues": "https://github.com/ditoskas/BootstrapManager/issues",
+"source": "https://github.com/ditoskas/BootstrapManager"
+},
+"require": {
+"php": ">=5.4.19",
+"composer/installers": "*"
+}
+}
