@@ -1,26 +1,39 @@
 {
-"name": "ditoskas/bootstrap_manager",
-"type": "CakePHP3-Plugin",
-"description": "CakePHP 3 plugin for Bootstrap",
-"keywords": [
-"cakephp 3",
-"bootstrap",
-"twitter"
-],
-"homepage": "http://bootstrap.toskas.gr",
-"license": "MIT",
-"authors": [
-{
-"name": "Dimitrios Toskas",
-"email": "ditoskas@gmail.com"
-}
-],
-"support": {
-"issues": "https://github.com/ditoskas/bootstrap_manager/issues",
-"source": "https://github.com/ditoskas/bootstrap_manager"
-},
-"require": {
-"php": ">=5.4.19",
-"composer/installers": "*"
-}
+	"name": "ditoskas/bootstrap_manager",
+	"description": "CakePHP 3 plugin for Bootstrap",
+	"type": "cakephp-plugin",
+	"keywords": ["cakephp", "debug", "kit"],
+	"homepage": "https://github.com/ditoskas/bootstrap_manager",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dimitrios Toskas",
+			"homepage": "http://toskas.gr",
+			"email": "ditoskas@gmail.com",
+			"role": "Author"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/ditoskas/bootstrap_manager/issues",		
+		"source": "https://github.com/ditoskas/bootstrap_manager"
+	},
+	"require": {
+		"cakephp/cakephp": "3.0.*-dev",
+		"cakephp/plugin-installer": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"BootstrapManager\\": "src",
+			"BootstrapManager\\Test\\Fixture\\": "tests\\Fixture"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Cake\\Test\\": "vendor/cakephp/cakephp/tests",
+			"BootstrapManager\\Test\\": "tests"
+		}
+	}
 }
