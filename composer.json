@@ -1,32 +1,23 @@
 {
-	"name": "ditoskas/bootstrap_manager",
-	"description": "CakePHP 3 plugin for Bootstrap",
-	"type": "cakephp-plugin",
-	"keywords": ["cakephp", "debug", "kit"],
-	"homepage": "https://github.com/ditoskas/bootstrap_manager",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Dimitrios Toskas",
-			"homepage": "http://toskas.gr",
-			"email": "ditoskas@gmail.com",
-			"role": "Author"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/ditoskas/bootstrap_manager/issues",		
-		"source": "https://github.com/ditoskas/bootstrap_manager"
-	},
-	"autoload": {
-		"psr-4": {
-			"BootstrapManager\\": "src",
-			"BootstrapManager\\Test\\Fixture\\": "tests\\Fixture"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Cake\\Test\\": "vendor/cakephp/cakephp/tests",
-			"BootstrapManager\\Test\\": "tests"
-		}
-	}
+    "name": "ditoskas/bootstrap-manager",
+    "description": "BootstrapManager plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BootstrapManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BootstrapManager\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
 }

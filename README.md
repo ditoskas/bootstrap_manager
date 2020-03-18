@@ -1,36 +1,11 @@
-BootstrapManager
-================
+# BootstrapManager plugin for CakePHP
 
-A plugin to manage the bootstrap framework in CakePHP 3
+## Installation
 
-Requirements
-------------
-  - CakePHP 3
-  - Bootstrap 3
+You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
 
+The recommended way to install composer packages is:
 
-Installation
-------------
-Download the CakePHP 3 and modify the composer.json file by adding in the require section 
-
-`"ditoskas/bootstrap_manager": "dev-master"`
-
-Then go to your app folder in your console and run
-
-`composer.phar update`
-
-Load plugin
-------------
-You need to enable the plugin in your app/Config/bootstrap.php file:
-
-`Plugin::load('BootstrapManager', ['bootstrap' => false, 'routes' => true);`
-
-Load Helpers
-------------
-Load the helpers in AppController:
-
-`public $helpers = ['Form','Html','BootstrapManager.BootstrapSources','BootstrapManager.Bootstrap',];`
-
-Documentation & Examples
-------------
-Documentation and examples can be found on [http://bootstrap.toskas.gr](http://bootstrap.toskas.gr)
+```
+composer require your-name-here/BootstrapManager
+```
